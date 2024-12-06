@@ -1,5 +1,4 @@
 {
-  "homepage": "https://hamxa52.github.io/my-portfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +23,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
+<<<<<<< HEAD
     "deploy": "gh-pages -d build"
+=======
+    "deploy": "gh-pages -d ."
+>>>>>>> 1b91c84d10b4781c19987e0f222d82f3f56365c8
   },
   "eslintConfig": {
     "extends": [
