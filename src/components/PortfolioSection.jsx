@@ -13,22 +13,23 @@ const PortfolioSection = () => {
     {
       title: "Interactive Quiz Application",
       description: "This website is for tech-based quizzes fetching data from APIs.",
-      img: "/images/image-1.png",
+      img: `${process.env.PUBLIC_URL}/images/image-1.png`,
       codeLink: "https://github.com/Hamxa52/Multiple-choice.github.io",
     },
     {
       title: "Portfolio Website",
       description: "This website showcases my skills, education, and ongoing projects.",
-      img: "/images/image-2.png",
+      img: `${process.env.PUBLIC_URL}/images/image-2.png`,
       codeLink: "https://github.com/Hamxa52/Portfolio.github.io",
     },
     {
       title: "Weather Application on React",
       description: "This weather page shows current weather status using an API.",
-      img: "/images/image-3.png",
+      img: `${process.env.PUBLIC_URL}/images/image-3.png`,
       codeLink: "https://github.com/Hamxa52/weather-app.github.io",
     },
   ];
+  
 
   const openModal = (img) => setModalImage(img);
   const closeModal = () => setModalImage(null);
